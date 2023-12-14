@@ -1,26 +1,3 @@
-/* CREATE PROCEDURE CHECK_DUPLICATE_VALUES(IN NEW_VALUE 
-VARCHAR(255)) BEGIN 
-	HANDLER
-	    FOR SQLEXCEPTION BEGIN IF SQLSTATE = '23000' THEN SIGNAL SQLSTATE '45000'
-	SET
-	    MESSAGE_TEXT = 'Duplicate value found in "' || 'course_name' || '" column.';
-	END IF;
-	END;
-	SELECT COUNT(*) INTO v_count
-	FROM courses
-	WHERE course_name = new_value;
-	IF v_count > 0 THEN SIGNAL SQLSTATE '45000'
-	SET
-	    MESSAGE_TEXT = 'Duplicate value found in "' || 'course_name' || '" column.';
-	END IF;
-	END;
- */
-
-
-
-
-
-
  CREATE TABLE subjects (
 	subject_code INT PRIMARY KEY,
 	subject_name VARCHAR(100)
