@@ -1,0 +1,22 @@
+DBMS Practicals
+
+Aim 1: Write an introduction about DBMS and difference between DBMS and file system.
+
+Aim 2: a. Create a university DB. Create appropriate associated tables (student, faculty, department, course).
+       b. Draw ER diagram for university DB.
+
+Aim 3: To perform SQL queries on university DB using aggregate functions: Avg, Count, Min, Max
+
+Aim 4: To perform SQL queries on university DB using "GROUPBY" and "HAVING" clause.
+
+Aim 5: To perform SQL queries on university DB using "JOIN" statements
+
+Aim 6: To perform SQL queries on the university database utilizing the following keywords - a) AND b) OR c) LIKE d) BETWEEN.
+
+Aim 7: To perform SQL Queries on the University database utilizing Keywords-a) IN b) NOT IN c) UNION d) EXISTS
+
+Aim 8: Write about pl-sql in brief
+
+Aim 9: To write a PL/SQL program to print a list of faculties along with their department
+
+Aim 10: To write a program to create a Trigger that checks for duplicate values in a specific column & raise an exception is found
